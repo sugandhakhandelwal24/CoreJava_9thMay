@@ -10,10 +10,10 @@ public class PrimeNumberChecker {
 		int temp;
 		boolean isPrime=true;
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner1 = new Scanner(System.in);
 		
 		System.out.println("Enter the number : ");
-		int num = scanner.nextInt();
+		int num = scanner1.nextInt();
 		
 		for(int i=2;i<=num/2;i++)
 		{
@@ -24,7 +24,7 @@ public class PrimeNumberChecker {
 		      break;
 		   }
 		}
-		//If isPrime is true then the number is prime else noterwer
+		//If isPrime is true then the number is prime else not
 		if(isPrime)
 		   System.out.println("Number is Prime : " + num);
 		else
