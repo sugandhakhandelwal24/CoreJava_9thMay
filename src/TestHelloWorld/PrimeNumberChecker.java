@@ -24,7 +24,7 @@ public class PrimeNumberChecker {
 		      break;
 		   }
 		}
-		//If isPrime is true then the number is prime else not
+		//If isPrime is true then the number is prime else noterwer
 		if(isPrime)
 		   System.out.println("Number is Prime : " + num);
 		else
