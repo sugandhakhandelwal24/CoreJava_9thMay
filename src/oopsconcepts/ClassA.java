@@ -6,6 +6,27 @@ public class ClassA {
 	public String Name;
 	public String OrgName;
 	
+	public ClassA()
+	{
+		System.out.println("Inside constructor");
+	}
+	
+	/* public ClassA(int val1, String val2, String val3)
+	{
+		System.out.println("Inside Parameter Constructor");
+		Salary = val1;
+		Name = val2;
+		OrgName = val3;
+	} */
+	
+	public ClassA(int val1, String val2, String val3)
+	{
+		System.out.println("Inside Parameter Constructor");
+		this.Salary = val1;
+		this.Name = val2;
+		this.OrgName = val3;
+	}
+	
 	public  void Display()
 	{
 		System.out.println("Name of the Employee : " + Name);
