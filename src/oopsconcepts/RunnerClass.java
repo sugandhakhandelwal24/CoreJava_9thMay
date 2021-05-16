@@ -10,7 +10,7 @@ public class RunnerClass {
 		Emp1.Salary = 10331;
 		Emp1.OrgName = "Walmart"; */
 		
-		ClassA Emp11 = new ClassA(); // created the object of default constructor
+		/* ClassA Emp11 = new ClassA(); // created the object of default constructor
 		
 		ClassA Emp1 = new ClassA(1232,"Wayne","Walmart"); //created the object of parameter constructor
 		
@@ -34,7 +34,33 @@ public class RunnerClass {
 		
 		obj2.Display();
 		obj2.show();
-		obj2.run();
+		obj2.run(); */
+		
+		MethodOverloading method = new MethodOverloading();
+		method.add(10,20);
+		method.add(1.1, 2.3);
+		
+		MethodOveridingChild child = new MethodOveridingChild();
+		child.display(null);
+		
+		AbstractChild abschild = new AbstractChild();
+		abschild.method2();
+		abschild.method1();
+		
+		InterfaceChild obj = new InterfaceChild();
+		obj.display();
+		obj.show();
+		obj.view();
+		
+		EncapsulationExample enc = new EncapsulationExample();
+		enc.setSalary(1000);
+		System.out.println("Salary is : " + enc.getSalary());
+		enc.setName("John Wick");
+		System.out.println("Name is : " + enc.getName());
+		enc.setEmpId(1231);
+		System.out.println("Employee Id is : " + enc.getEmpId());
+		
+		
 
 	}
 
