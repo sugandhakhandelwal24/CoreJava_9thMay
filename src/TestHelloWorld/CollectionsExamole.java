@@ -43,6 +43,8 @@ public class CollectionsExamole {
 	//	mystack.pop();
 		mystack.push("pqr");
 		System.out.println("Stack list : " + mystack);
+		
+		//make some changes
 	}
 	
 	
